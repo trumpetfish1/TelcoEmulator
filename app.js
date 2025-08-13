@@ -1,6 +1,9 @@
 
+class Packet {
+    constructor(param1) {
+        this.tx = 'data'
+    }
+}
+    firstPacket = new Packet
 
-incomingPacket = {}
-
-
-outgoingPacket = {}
+    console.log(firstPacket)
